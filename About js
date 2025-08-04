@@ -1,0 +1,36 @@
+ 
+    function toggleTheme() {
+      document.body.classList.toggle('dark-mode');
+    }
+
+    // حفظ الوضع في التخزين المحلي (اختياري)
+    window.addEventListener('load', () => {
+      const saved = localStorage.getItem('theme');
+      if (saved === 'dark') document.body.classList.add('dark-mode');
+    });
+
+    // تحديث التخزين عند التبديل
+    function toggleTheme() {
+      document.body.classList.toggle('dark-mode');
+      const isDark = document.body.classList.contains('dark-mode');
+      localStorage.setItem('theme', isDark ? 'dark' : 'light');
+    }
+
+
+ // <!-- تشغيل تطبيق Flutter -->
+
+    window.addEventListener('load', function(ev) {
+      _flutter.loader.loadEntrypoint({
+        serviceWorker: {
+          serviceWorkerVersion: serviceWorkerVersion,
+        },
+        onEntrypointLoaded: function(engineInitializer) {
+          engineInitializer.initializeEngine().then(function(appRunner) {
+            appRunner.runApp();
+          });
+        }
+      });
+    });
+
+
+    
