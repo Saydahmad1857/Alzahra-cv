@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="toggle_buttons">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+  <link rel="icon" type="image/png" href="favicon.png"/>
+  <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="Capture-removebg-preview.png"/>
+  <link rel="stylesheet" href="About.css"/>
+  <link rel="stylesheet" href="Ab.css"/>
+  <title>About Me - CV</title>
+    
+    <script>
+    var serviceWorkerVersion = null;
+  </script>
+  <script src="flutter.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <!--Java script-->
+ <script src="About.js"></script>
+ <script src="ab.js"></script>
+
+<button id="themeToggle" onclick="toggleTheme()">🌗 Toggle Mode</button>
+
+
+
+  <div class="container">
+    <h1>About Me</h1>
+    <p class="pagr">في هذه الصفحة سيتم عرض كل شيئ تقريبا حول حياتي العملية والتعليمية .<br>
+      <br>
+    On this page you will find almost everything about my professional and educational life.<br>
+    <br>
+    בדף זה תמצאו כמעט כל דבר על חיי המקצועיים והלימודיים.</p>
+  
+
+    <div class="info">
+      <h2></h2>
+    </div>
+     <!--الي اشتغلت ودربت-->
+    <div class="about">
+      <h3>Practical Experiences</h3>
+      <p>
+                        <a href="https://www.facebook.com/share/1AwnF916Xe/">
+                <img src="نور الهدى.jpg" class="imag">
+                </a>
+        Volunteer:Working as a teacher for children of all ages (2019-2020)
+      </p>
+      <p>
+                                <a href="https://www.facebook.com/share/1dH17koQH3/">
+                <img src="" class="imag">
+                </a>
+        Training:Train on administrative system such as secretary work(Two Month 2022)
+      </p>
+            <p>
+                                <a href="https://www.facebook.com/share/1ZFjdnMmsv/">
+                <img src="Capture.PNG" class="imag">
+                </a>
+        Work:I worked in the administrative system in the Admissions and Registration Department( Month 2025)
+      </p>
+    </div>
+    <!--الاماكن الي تعلمت فيها -->
+        <div class="about">
+      <h3>Academic Education</h3>
+      <p>
+                        <a href="https://www.facebook.com/share/1EYW58p5pn/">
+                <img src="كلية الامة.jpeg" class="imag">
+                </a>
+        Information Technology:Learn several things including HTML, CSS, SQL, Office, how to disassemble computers, Adobe programs, and Visual Basic. (2023)
+      </p>
+      <p>
+                                <a href="https://www.facebook.com/share/16ihFgmnVo/">
+                <img src="WhatsApp Image 2025-08-02 at 13.12.42_12c484d5.jpg" class="imag">
+                </a>
+        ICT:I learned on Cisco software how to connect devices to the server and other networks through programming.(2020)
+      </p>
+        </div>
+      <!--الدورات-->
+    <div class="about">
+      <h3>Training courses</h3>
+      <p>
+                        <a href="https://www.facebook.com/share/17H7aVsWy5/">
+                <img src="ماطي.jpg" class="imag">
+                </a>
+        Course:Advanced graphics Form(30)Hours (9.7.2023-3.9.2023)
+        <br>       
+        Course:Graphic Design Form(60)Hours (2.2.2023-21.3.2023)
+        <br>
+        Course:Project management Form(60)Hours (20.8.2022-15.10.2022)      
+        <br> 
+        Course:Managing commercial pages Form(12)Hours (6.7.2021-8.7.2021) 
+        <br>      
+        Course:Microsoft Office & Google WorkSpace Form(20)Hours (3.6.2021-17.6.2021) 
+      </p>
+      <p>
+                                <a href="https://www.facebook.com/share/1C8WV5U9FM/">
+                <img src="images.png" class="imag">
+                </a>
+        Course:Hebrew Language Level 1 Form(180)Hours (3.2024)
+        <br>
+        Course:Preparation for the world of work Form(48)Hours (7.2021)
+      </p>
+            <p>
+                                <a href="https://www.facebook.com/share/1BNz9QeZwD/">
+                <img src="smile.jpg" class="imag">
+                </a>
+        Course:Finding a Job is a Job Form(24)Hours ( 7.2.2023-16.2.2023)
+      </p>
+                  <p>
+                                <a href="https://www.facebook.com/share/16ffH5qN4E/">
+                <img src="plan b.jpg" class="imag">
+                </a>
+        Course:Hebrew Language 3 level  ( 2021-2022 )
+      </p>
+                  <p>
+                                <a href="https://www.facebook.com/share/1Atb4PtZs4/">
+                <img src="بيلي.jpg" class="imag">
+                </a>
+        Course:Photography course  ( 2018-2019)
+      </p>
+    </div>
+    </div>
+  </div>
+<!--دائرة النسب-->
+
+
+  <!-- ✅ Footer -->
+  <footer>
+        <div class="linkss">
+      <li><a href="https://mail.google.com/">saydahmad1857@gmail.com</a></li>
+      <li><a href="https://mail.google.com/">alzhrasaydahmad395@gmail.com</a></li>
+      
+    &copy; 2025 Alzahra SA. All rights reserved. |
+    <a href="mailto:alzahra@example.com">Contact Me</a>
+
+    </div>
+  </footer>
+</body>
+</html>
